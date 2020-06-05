@@ -1,7 +1,5 @@
 # Site Settings
 title                    : "rdrn recipes"
-# baseurl                  : "/recipes"  # because served at ...github.io/recipes
-
 
 collections:
   recipes:
