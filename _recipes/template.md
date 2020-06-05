@@ -5,8 +5,15 @@ source:
 yield: 
 time: 
 notes: 
-ingredients:
-- 
-method:
-- 
+image: 
 ---
+
+## Ingredients
+- Ingredient 1
+
+## Method
+- Do something
+- Do something else
+- **Make a bold line**
+- _italics_
+- a [link](www.link.com)

@@ -5,7 +5,9 @@ source: https://www.jamieoliver.com/recipes/vegetables-recipes/vegan-shepherd-s-
 yield: Serves 6
 time: 1hr 25min
 notes: 
-ingredients:
+---
+
+### ingredients:
 - 600 g white potatoes 
 - 600g sweet potatoes
 - 1 onion, chopped finely
@@ -23,7 +25,8 @@ ingredients:
 - 2 sprigs fresh rosemary
 - 1 lemon
 - 30g fresh breadcrumbs (make a piece of toast and nutribullet)
-method:
+
+### method:
 - Preheat the oven to 200°C/400°F/gas 6.
 - Peel and chop all the potatoes into rough 2cm chunks. Place the potatoes into a large pan of cold salted water over a medium heat. Bring to the boil, then simmer for 10 to 15 minutes, or until tender, adding the sweet potatoes after 5 minutes. 
 - Drain and leave to steam dry, then return to the pan with the margarine (optional) and a pinch of sea salt and black pepper. Mash until smooth, then set aside.

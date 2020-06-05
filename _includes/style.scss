@@ -1,10 +1,9 @@
 $menu-width: 14rem;
-$gen-padding: 12px;
-$sans-serif: Carlito, Calibri, sans-serif;
-$gray: #7a8288;
-$background-color: #F6F6F6;
-$text-color: mix(black, $gray, 40%);
-$light-color: #f6f4f6;
+$padding: 12px;
+$font: Carlito, Calibri, font;
+$bg-color: rgb(221, 241, 247);
+$hover-color: rgb(162, 213, 227);
+$text-color: #494a4a;
 
 @mixin md {
     @media (min-width: #{768px}) {
@@ -14,10 +13,10 @@ $light-color: #f6f4f6;
 
 body {
     max-width: 100%;
-    font-family: $sans-serif;
+    font-family: $font;
     color: $text-color;
     margin: 0;
-    background-color: $background-color;
+    background-color: $bg-color;
     overflow: initial;
     @include md {
         height: 100vh;
@@ -33,101 +32,121 @@ a {
 }
 
 p {
-    margin: 0;
-}
-
-.extra-width p {
     margin: 10px 0;
+    padding-left: $padding;
 }
 
-.cat-list, .rec-list {
-    display: none;
+a:hover,
+.highlight {
+    background-color: $hover-color;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 120%;
+    margin-bottom: -14px;
+}
+
+h3 {
+    font-size: 100%;
+    margin-bottom: -14px;
+}
+
+h1, h2, h3 {
     text-align: center;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    @include md {
-        flex-basis: 100vw;
-        min-width: 100vw;
-        text-align: initial;
-        display: initial;
-        flex-basis: $menu-width;
-        min-width: $menu-width;
-    }
-}
-
-.cat-list {
-    background-color: #d6d6d6;
-}
-
-.rec-list {
-    background-color: #eeeeee;
-}
-
-.content {
-    display: none;
-    overflow-y: auto;
-    overflow-x: hidden;
-    @include md {
-        padding: 0 $gen-padding;
-        display: block;
-    }
-}
-
-.content.extra-width > h2 {
-    @include md {
-        width: calc(100vw - (#{$menu-width} + #{$gen-padding}));
-    }
-}
-
-.content > p {
-    padding-left: $gen-padding;
-}
-
-.content > * {
-    padding-right: $gen-padding;
-    @include md {
-        width: 40vw;
-    }
-}
-
-.content > h2, .content > h3, .content > h4 {
-    text-align: center;
-    @include md {
-        text-align: initial;
-        margin-left: -$gen-padding;
-        width: calc(100vw - 2*(#{$menu-width} + #{$gen-padding}));
-    }
-}
-
-.cat-list > a, .rec-list > a {
     display: block;
-    padding: $gen-padding;
-    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
-}
-
-.home, .rec-list > h2, .content > h2, .content > h3 {
-    display: block;
-    padding: $gen-padding;
+    padding: $padding;
     margin-top: 0px;
-    background-color: #93ae93;
-    color: $light-color !important;
+    @include md {
+        text-align: initial;
+        width: calc(120vw - 2*(#{$menu-width} + #{$padding}));
+    }
 }
 
-.mob-vis {
+.force-disp {
     display: initial !important;
 }
 
-.only-mob {
+.hide-mob {
+    display: none;
+    @include md {
+        display: initial;
+    }
+}
+
+.hide-md {
+    display: initial;
     @include md {
         display: none;
     }
 }
 
-.no-mob {
+.head {
+    font-size: 150%;
+    font-weight: bold;
+    margin: 0 16px;
+    @include md {
+        margin: initial;
+    }
+}
+
+.list {
     display: none;
+    text-align: center;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     @include md {
         display: initial;
+        text-align: initial;
+        flex-basis: $menu-width;
+        min-width: $menu-width;
     }
+}
+
+.list > * {
+    display: block;
+    padding: $padding;
+    margin-top: 0px;
+}
+
+.content {
+    display: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    @include md {
+        padding: 0 $padding;
+        display: block;
+    }
+}
+
+.content > ol,
+.content > ul,
+.content > p {
+    padding-right: $padding;
+    @include md {
+        width: 40vw;
+    }
+}
+
+img {
+    image-orientation: from-image;
+    width: 90vw;
+    padding: 1em;
+    @include md {
+        width: 30vw;
+    }
+}
+
+#ingredients ~ * > li {
+    list-style-type: disc;
+}
+
+#method ~ * > li {
+    list-style-type: decimal;
+    margin: 8px 0;
 }
 
 .back-arrow {
@@ -135,27 +154,3 @@ p {
     left: 10px;
 }
 
-.title-center {
-    margin-left: 16px;
-    margin-right: 20px;
-}
-
-.home a {
-    color: $light-color !important;
-}
-
-.cat-list > a:hover {
-    background-color: #b7b7b7;
-}
-
-.rec-list > a:hover {
-    background-color: #cccccc;
-}
-
-.cat-hl, .cat-hl:hover {
-    background-color: #ae93ae !important;
-}
-
-.rec-hl, .rec-hl:hover {
-    background-color: #c2a4c2 !important;
-}

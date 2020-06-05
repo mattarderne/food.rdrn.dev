@@ -5,7 +5,9 @@ source: https://www.bbc.co.uk/food/recipes/smoked_mackerel_pilau_66783
 yield: Serves 4
 time: 1 hour
 notes: 
-ingredients:
+---
+
+### ingredients:
 - 1 tsp olive oil
 - 1 onion, roughly chopped
 - 1 garlic clove, finely chopped
@@ -17,7 +19,8 @@ ingredients:
 - 1 lemon, juice only, plus wedges to serve
 - 2 tbsp roughly chopped flatleaf parsley (optional)
 - sea salt and freshly ground black pepper
-method:
+
+### method:
 - Heat a large saucepan until medium hot, add the oil and onion and stir well.
 - Cover with a lid and leave to cook gently for 10 minutes, until softened.
 - Add the garlic and curry powder and stir fry for 1 minute. Add the rice and stir, then add the stock. Stir well and cover with a lid.

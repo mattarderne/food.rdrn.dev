@@ -4,13 +4,14 @@ layout: default
 
 {%- include cat-list.html -%}
 {%- include rec-list.html -%}
-<div class="content {% if page.layout == 'recipe' %}mob-vis{% endif %}">
+<div class="content {% if page.layout == 'recipe' %}force-disp{% endif %}">
     {%- assign cat = page.path | remove: '_recipes/' | split: '/' | first -%}
-    <h2>
-        <a class="only-mob back-arrow" href="{{ cat | relative_url }}">←</a>
-        <span class="title-center">{{ page.title }}</span>
-    </h2>
+    <h1 class="head">
+        <a class="hide-md back-arrow" href="{{ cat | relative_url }}">&lt;</a>
+        {{ page.title }}
+    </h1>
     <div style="clear: both;"></div>
+
     {%- if page.source -%}
         <p>Source: 
         {%- if page.source contains "http" -%}
@@ -22,55 +23,20 @@ layout: default
         <a {% if source -%}href="{{ source }}"{%- endif -%}> {{ sourcetext }}</a>
         </p>
     {%- endif -%}
+
     {%- if page.yield -%}
         <p>Yield: {{ page.yield }}</p>
     {%- endif -%}
+
     <p>Time: {{ page.time }}</p>
+
     {%- if page.notes -%}
         <p>Notes: {{ page.notes }}</p>
     {%- endif -%}
-    <h3>Ingredients</h3>
-        {%- for el in page.ingredients -%}
-            {%- if el.first -%}
-                {%- assign nested = "true" -%}
-            {%- endif -%}
-        {%- endfor -%}
-        {%- if nested == "true" -%}
-            {%- for el in page.ingredients -%}
-                <h4>{{ el[0] }}</h4>
-                <ul>
-                {%- for subel in el[1] -%}
-                    <li>{{ subel }}</li>
-                {%- endfor -%}
-                </ul>
-            {%- endfor -%}
-        {%- else -%}
-            <ul>
-            {%- for el in page.ingredients -%}
-                <li>{{ el }}</li>
-            {%- endfor -%}
-            </ul>
-        {%- endif -%}
-    <h3>Method</h3>
-        {%- for el in page.method -%}
-            {%- if el.first -%}
-                {%- assign nested2 = "true" -%}
-            {%- endif -%}
-        {%- endfor -%}
-        {%- if nested2 == "true" -%}
-            {%- for el in page.method -%}
-                <h4>{{ el[0] }}</h4>
-                <ol>
-                {%- for subel in el[1] -%}
-                    <li>{{ subel }}</li>
-                {%- endfor -%}
-                </ol>
-            {%- endfor -%}
-        {%- else -%}
-            <ol>
-            {%- for el in page.method -%}
-                <li>{{ el }}</li>
-            {%- endfor -%}
-            </ol>
-        {%- endif -%}
+
+    {{ content }}
+
+    {%- if page.image -%}
+        <img src="/images/{{ page.image }}" alt="recipe-photo" class="">
+    {%- endif -%}
 </div>

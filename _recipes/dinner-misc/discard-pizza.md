@@ -5,13 +5,16 @@ source: https://www.kingarthurflour.com/recipes/sourdough-pizza-crust-recipe
 yield: 2 medium pizzas
 time: 5 hours
 notes: This is specifically a "use up discard" recipe
-ingredients:
+---
+
+### ingredients:
 - 1 cup (227g) sourdough starter, unfed/discard
 - 1/2 cup (113g) lukewarm water
 - 2 1/2 cups (298g) King Arthur Unbleached All-Purpose Flour
 - 1 teaspoon salt
 - 1/2 teaspoon instant or active dry yeast
-method:
+
+### method:
 - Stir any liquid on top of your refrigerated starter back into it before measuring 1 cup (227g) into a large mixing bowl. Note":" This is a good opportunity to feed the remainder of your starter, if necessary.
 - Add the water, flour, salt, yeast, and Pizza Dough Flavor (if using). Mix to combine, then knead for about 7 minutes in a mixer with the dough hook, until the dough wraps itself around the hook and cleans the side of the bowl.
 - Place the dough in a greased container, cover and let rise until almost doubled in bulk. Depending on the vitality of your starter, this will take between 2 and 4 hours. For a faster rise, place the dough in a warm spot, or double the yeast.

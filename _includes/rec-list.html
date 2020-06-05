@@ -1,20 +1,22 @@
-<div class="rec-list {% if page.layout == 'category' %}mob-vis{% endif %}">
-    {%- if page.layout == "recipe" -%}
-        {%- assign cat = page.path | remove: '_recipes/' | split: '/' | first -%}
-        {%- assign selrec = page.title -%}
-    {%- else -%}
-        {%- assign cat = page.slug | downcase | replace: ' ', '-' -%}
-    {%- endif -%}
-    <h2>
-        <a class="only-mob back-arrow" href="{{ '/' | relative_url }}">←</a>
-        <span class="no-mob">Recipes</span>
-        <span class="only-mob title-center">{{ page.title }}</span>
-    </h2>
+{%- if page.layout == "recipe" -%}
+    {%- assign cat = page.path | remove: '_recipes/' | split: '/' | first -%}
+    {%- assign selrec = page.title -%}
+{%- else -%}
+    {%- assign cat = page.slug | downcase | replace: ' ', '-' -%}
+{%- endif -%}
+<div class="list {% if page.layout == 'category' %}force-disp{% endif %}">
+    <span class="head">
+        <span class="hide-md">
+            <a class="back-arrow" href="{{ '/' | relative_url }}">&lt;</a>
+            {{ page.title }}
+        </span>
+        <span class="hide-mob">&nbsp;</span>
+    </span>
     {%- for a in site.recipes -%}
         {%- assign dir = a.path | remove: '_recipes/' | split: '/' | first -%}
         {%- assign alow = a.url -%}
         {%- if dir == cat -%}
-            <a {% if a.title == selrec -%}class='rec-hl'{%- endif %} {% unless a.title == selrec -%}href='{{ a.url | relative_url }}'{%- endunless -%}>{{ a.title }}</a>
+            <a {% if a.title == selrec -%}class='highlight'{%- endif %} {% unless a.title == selrec -%}href='{{ a.url | relative_url }}'{%- endunless -%}>{{ a.title }}</a>
         {%- endif -%}
     {%- endfor -%}
 </div>

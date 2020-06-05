@@ -1,6 +1,7 @@
 # Site Settings
 title                    : "rdrn recipes"
-# baseurl                  : "/recipes"  # because served at ...github.io/recipes
+baseurl                  : "/recipes"  # because served at ...github.io/recipes
+
 
 collections:
   recipes:
@@ -19,7 +20,7 @@ exclude:
 keep_files:
   - .git
 encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown_ext: "md"
 
 # Conversion
 markdown: kramdown

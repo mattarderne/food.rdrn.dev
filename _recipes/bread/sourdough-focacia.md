@@ -5,7 +5,9 @@ source: https://m.youtube.com/watch?v=Y6Y-HwnZg9I
 yield: 1 focash
 time: Prob a good couple hours the day before you want to bake
 notes: 
-ingredients:
+---
+
+## Ingredients
 - 300g cool water
 - 11g salt
 - 11g olive oil
@@ -13,7 +15,8 @@ ingredients:
 - 375g unbleached bread flour
 - 9 inch cake pan or larger baking tray for thinner bread. 
 - Optional; fresh tomatoes, rosemary, olives, maldon salt. 
-method:
+
+### Method
 - Add water, olive oil and salt. Mix until dissolved.
 - Add the sourdough culture to the water mixture and mix until dissolved & water is milky.
 - Add the flour & mix with spatula until full incorporated.

@@ -5,7 +5,9 @@ source: https://minimalistbaker.com/cashew-crusted-cauliflower-steak/
 yield: 4
 time: 1hr 20min
 notes: 
-ingredients:
+---
+
+### ingredients:
 - 1 large head cauliflower (or sub 2 small for 1 large) 
 - Almond buttermilk = 1 cup dairy-free milk and 1 Tbs lemon juice
 - Olive oil
@@ -18,7 +20,8 @@ ingredients:
 - 1 ½ tsp smoked paprika
 - 3 Tbsp arrowroot or cornstarch
 - For serving = Fresh spinach, coriander, cumin mayo/yogurt, tomatoes, cucumber
-method:
+
+### method:
 - Preheat oven to 218 C and line a large baking sheet with parchment paper. If you have a cooling rack that is oven safe, you can place that over the parchment paper to help the cauliflower crisp up even more. However, we tested it with and without and both work. 
 - TO CUT "STEAKS," trim the stem and leaves off the cauliflower, being careful not to remove the center of the stem as it’s what holds the “steaks” together.
 - Flip the cauliflower stem-side down and visually map out how many “steaks” you hope to get. With a large head of cauliflower, I aim for 3 large “steaks,” and know there'll be enough remaining pieces to constitute another “steak.” It can be helpful to look at the underside of the cauliflower to see which way the stalks are running to inform which way you’ll slice (cut with the stalks instead of against them). But it’s very common for the end pieces to crumble, so just do your best to get 3 even “steaks” and slice any remaining bits into flat pieces. The little pieces are just as (if not more) delicious.

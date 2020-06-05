@@ -5,13 +5,16 @@ source:
 yield: 1 large or 2 small loaves
 time: Prep today, bake tomorrow morning
 notes: 70% hydration, starter 15% - equal parts water/flour
-ingredients:
+---
+
+## Ingredients
 - 400g All Purpose flour
 - 280g water (filtered, lukewarm)
 - 60g starter (peaked)
 - 8g salt (2%)
 - bread tin / dutch oven / cake dish 
-method:
+
+## Method
 - Mix water and starter, then flour. Let sit for 20-30 mins.
 - Pour salt on top of dough, fold and pinch with wet hand until well combined.
 - Perform four stretch & folds total - once every 30 mins. [example link](https://www.youtube.com/watch?v=HprDjPWuiN8)

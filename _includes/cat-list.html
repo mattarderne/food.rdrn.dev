@@ -1,15 +1,12 @@
-<div class="cat-list {% if page.layout == 'index' %}mob-vis{% endif %}">
-    <h2 class="home">
-        <a class="no-mob" href="{{ '/' | relative_url }}">Home</a>
-        <span class="only-mob">{{ site.title }}</span>
-    </h2>
-    {%- assign cats = site.categories | sort: "order" -%}
-    {%- if page.layout == "recipe" -%}
-        {%- assign selcat = page.path | remove: '_recipes/' | split: '/' | first -%}
-    {%- elsif page.layout == "category" -%}
-        {%- assign selcat = page.title | downcase | replace: ' ', '-' -%}
-    {%- endif -%}
+{%- assign cats = site.categories | sort: "order" -%}
+{%- if page.layout == "recipe" -%}
+    {%- assign selcat = page.path | remove: '_recipes/' | split: '/' | first -%}
+{%- elsif page.layout == "category" -%}
+    {%- assign selcat = page.title | downcase | replace: ' ', '-' -%}
+{%- endif -%}
+<div class="list {% if page.layout == 'index' %}force-disp{% endif %}">
+    <a class="head" href="{{ '/' | relative_url }}">{{ site.title }}</a>
     {%- for c in cats -%}
-        <a {% if c.slug == selcat %}class='cat-hl'{%- endif %} href='{{ c.slug | relative_url }}'>{{ c.title }}</a>
+        <a {% if c.slug == selcat %}class='highlight'{%- endif %} href='{{ c.slug | relative_url }}'>{{ c.title }}</a>
     {%- endfor -%}
 </div>

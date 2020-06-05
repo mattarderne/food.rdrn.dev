@@ -38,7 +38,9 @@ layout: category
 We love making bread!
 ```
 
-To add a recipe, add a file (e.g. `pizza.md`) under the appropriate subdirectory within `_recipes/` (if you put it at the top level, it won't be displayed) and follow the `_recipes/template.md` file or another recipe file. The variables `source`, `yield` and `notes` are optional. `source` can be a URL or simple text. Use quotes `""` around strings if they contain special characters such as colons `:`.
+To add a recipe, add a file (e.g. `pizza.md`) under the appropriate subdirectory within `_recipes/` (if you put it at the top level, it won't be displayed) and follow the `_recipes/template.md` file or another recipe file. The variables `source`, `yield` and `notes` are optional. `source` can be a URL or simple text. Within the front-matter (between the triple dashes `---`) , use quotes `""` around strings if they contain special characters such as colons `:`.
+
+For the content (everything after the triple-dashes `---`), use `##` for the main categories (`Ingredients` and `Method`), and `###` for sub-categories (see below). Use normal lists (`-`) for ingredients and methods. All spacing is important: new lines before `##`, after lists, and a space between `##` or `-` and text.
 
 ```
 # Recipe example for _recipes/bread/pizza.md
@@ -49,13 +51,20 @@ source:
 yield: 4 pizzas
 time: 40 minutes
 notes:
-ingredients:
+image: 
+---
+
+## Ingredients
 - 2 cups 00 flour
 - 1 cup warm water
-method:
+
+## Method
+### Preparation
 - Mix together.
 - Knead.
----
+
+### Cooking
+- Bake at 250 C.
 ```
 
 ## Layouts
