@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: sourdough focacia
+title: Sourdough Focacia
 source: https://m.youtube.com/watch?v=Y6Y-HwnZg9I
 yield: 1 focash
 time: Prob a good couple hours the day before you want to bake

@@ -5,11 +5,13 @@ source:
 yield: 1 bubbly starter
 time: 1 week
 notes: 
-ingredients:
+---
+## ingredients
 - 50g All Purpose flour
 - 50g water (filtered, lukewarm)
 - Jar of around 600-1000ml, weigh the jar so you have an empty baseline, and mark a few 1/2 cup lines
-method:
+
+## method 
 - Get started with this link - https://www.kingarthurflour.com/recipes/sourdough-starter-recipe
 - Maintenance Feeding":"
 - once a week is fine, if it starts to smell super alcoholy then it needs a feed. Fridge slows down how often it needs to be fed

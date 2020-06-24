@@ -1,5 +1,5 @@
 ---
-title: Dinner-fish
+title: Dinner-Fish
 layout: category
 order: 33
 ---

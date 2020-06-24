@@ -1,4 +1,7 @@
 # recipes
+
+Thanks to [bouty.me](https://bouty.me/) for the template of this site!
+
 Repo for recipes with a simple site to view. Created using markdown files and [Jekyll](https://jekyllrb.com/).
 
 ## TODO
