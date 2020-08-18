@@ -1,5 +1,5 @@
 ---
-title: Dinner Vegetarian
+title: Dinner Seafood
 layout: category
 order: 33
 ---

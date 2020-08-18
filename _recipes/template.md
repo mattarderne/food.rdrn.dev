@@ -1,10 +1,10 @@
 ---
 layout: recipe
-title: 
-source: 
+title: cant have gaps between sections here
+source: nor can you have line breaks
 yield: 
-time: 
-notes: 
+time: also can't have colons in this section
+notes: nor can you have a line at the start
 image: 
 ---
 

@@ -1,4 +1,3 @@
-
 ---
 layout: recipe
 title: Spicy BBQ Tofu stir-fry
