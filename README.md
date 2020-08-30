@@ -10,7 +10,7 @@ Repo for recipes with a simple site to view. Created using markdown files and [J
 * [ ] highlight with brackets instead of shadow
 
 formatting
-* [ ] grep out leading spaces
+* [ ] grep out leading spaces `find _recipes -name "* *.md" | while read FN; do echo mv "$FN" "${FN/}"; done`
 * [ ] remove formatting from file names
 * [ ] remove _ from content
 
