@@ -9,6 +9,11 @@ Repo for recipes with a simple site to view. Created using markdown files and [J
 * [ ] change font
 * [ ] highlight with brackets instead of shadow
 
+formatting
+* [ ] grep out leading spaces
+* [ ] remove formatting from file names
+* [ ] remove _ from content
+
 
 ## Install and serve
 ```
