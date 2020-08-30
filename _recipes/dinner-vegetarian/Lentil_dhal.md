@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Lentil_dhal
+title: Lentil dhal
 yield: 4 ppl
 time: 45 mins
 

@@ -1,10 +1,10 @@
 ---
 layout: recipe
-title:  Lemon chia seed muffins
+title:  Healthy banana muffins
 source: https://www.loveandlemons.com/vegan-lemon-muffins/
 yield: 12 muffins
 time: 
-notes: Can add galze to make these cupcakes. You can replace all honey with maple syrup. 
+notes: Can add glaze to make these cupcakes. You can replace all honey with maple syrup. 
 ---
 
 ## Ingredients

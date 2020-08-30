@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Buckwheat_courgette_and_almond_salad
+title: Buckwheat courgette and almond salad
 yield: 
 time: 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Red_curry_lentils
+title: Red curry lentils
 source: https://pinchofyum.com/red-curry-lentils
 yield: 4 ppl
 time: 45 mins

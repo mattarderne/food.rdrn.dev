@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Aubergine_Parmigiana
+title: Aubergine Parmigiana
 source: https://sarahgraham.co.za/recipes/aubergine-parmigiana/
 yield: 4 people
 time: 45 minutes

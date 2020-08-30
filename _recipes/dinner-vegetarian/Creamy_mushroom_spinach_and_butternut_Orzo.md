@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Creamy_mushroom,_spinach_and_butternut_Orzo
+title: Creamy mushroom, spinach and butternut Orzo
 yield: serves 4 ppl
 time: 1 hour
 ---

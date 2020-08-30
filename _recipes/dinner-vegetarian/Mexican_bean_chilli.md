@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Mexican_bean_chilli
+title: Mexican bean chilli
 yield: 4 ppl
 
 ---

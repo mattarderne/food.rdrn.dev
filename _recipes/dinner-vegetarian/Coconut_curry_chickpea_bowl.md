@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Coconut_curry_chickpea_bowl
+title: Coconut curry chickpea bowl
 yield: 4 ppl
 time: 1 hour
 note: Recipe scales and freezes really well
