@@ -24,11 +24,11 @@ notes: 70% hydration, starter 15% - equal parts water/flour
 - Perform four stretch & folds total - once every 30 mins. [example link](https://www.youtube.com/watch?v=HprDjPWuiN8)
 - Bulk rise (until doubled) for about 6 hours. Temp should be ~ 23c, if much colder, leave for longer!
 - Flour a counter, carefully scrape dough out of bowl onto flour, shape dough into a neat ball.
-- Spray parchment with olive oil and place into baking container, place the ball in the container. 
+- Spray parchment with olive oil and place into baking container, place the ball in the container. (the dough gets sticky overnight, so try keep things a bit oiled)
 - Put in the fridge in overnight (ideally in a ziplock bag), about 12 hours minimum.
 - **Day 2**
-- Let dough sit out while oven heats up to 260c. Do the finger indent test.
-- Score, _very_ lightly spray with warm water and place in oven with a lid (tinfoil lid fine, but make sure it has space to rise 50% or more)
+- Let dough sit out while oven heats up to 260c. Do the finger indent test to check if proved.
+- Score with bread knife, _very_ lightly spray with warm water and place in oven with a lid (tinfoil lid fine, but make sure it has space to rise 50% or more)
 - Lower oven to 230c and bake with lid for 25 mins. Then lid off for 25 mins.
-- Don't cut until cool (unless you're going to eat the whole lot, otherwise it goes stales)
+- Don't cut until cooled down, lots still happening on the table.
 ---
