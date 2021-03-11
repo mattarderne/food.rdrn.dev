@@ -3,3 +3,4 @@ _site
 .jekyll-cache
 images/originals
 .jekyll-cache/Jekyll/Cache
+.jekyll-cache
