@@ -1,4 +1,3 @@
-
 ---
 layout: recipe
 title: Oats and cranberry breakfast cookies

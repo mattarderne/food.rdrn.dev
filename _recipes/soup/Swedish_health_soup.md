@@ -4,7 +4,6 @@ title: Swedish_health_soup
 source:  Janey
 yield: 4 pple
 time: 1 hour
-
 ---
 
 ## Ingredients

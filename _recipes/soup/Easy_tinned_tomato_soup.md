@@ -4,7 +4,6 @@ title: Easy tinned tomato soup
 yield: Serves 6
 time: 
 notes: 
-
 ---
 
 ## Ingredients

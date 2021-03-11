@@ -5,7 +5,6 @@ source: https://www.gousto.co.uk/cookbook/fish-recipes/10-min-smoked-fish-sweetc
 yield: 3 ppl
 time: 30 minutes
 notes: 
-
 ---
 
 ## Ingredients

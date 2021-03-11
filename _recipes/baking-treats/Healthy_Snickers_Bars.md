@@ -5,7 +5,6 @@ source: https://frommybowl.com/healthy-snickers-bars/
 yield: 12 
 time: 30 min cooking, 60 min setting
 notes: If feeling lazy you can also make this in layers in a tray but the chocolate doesn't always stick so well to the top. Bars are best stored in the fridge and will last there for up to 10 days. You can also place them in the freezer, where they will last for up to one month.
-
 ---
 
 ## Ingredients

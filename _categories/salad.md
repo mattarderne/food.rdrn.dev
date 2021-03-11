@@ -1,5 +1,5 @@
 ---
-title: Vegetarian meals
+title: Salad
 layout: category
 order: 33
 ---

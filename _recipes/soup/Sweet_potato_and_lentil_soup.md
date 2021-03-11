@@ -4,7 +4,6 @@ title: Sweet_potato_and_lentil_soup
 source: https://www.bbcgoodfood.com/recipes/sweet-potato-lentil-soup
 yield: serves 6
 time: 30 minutes
-
 ---
 
 ## Ingredients

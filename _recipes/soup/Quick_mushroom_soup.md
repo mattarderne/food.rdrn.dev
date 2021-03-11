@@ -3,7 +3,6 @@ layout: recipe
 title: Quick mushroom soup
 yield: 2-3 ppl
 time: 30 mins
-
 ---
 
 ## Ingredients

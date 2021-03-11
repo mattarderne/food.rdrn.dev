@@ -3,7 +3,6 @@ layout: recipe
 title: Roast_tomato_soup
 yield: 4 ppl
 time: 2 hours
-
 ---
 
 ## Ingredients

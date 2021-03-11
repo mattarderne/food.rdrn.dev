@@ -4,7 +4,6 @@ title: Broccoli_and_bacon_soup
 source: 
 yield: serves 6
 time: 1 hour
-
 ---
 
 ## Ingredients

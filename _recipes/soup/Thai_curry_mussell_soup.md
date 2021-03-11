@@ -3,7 +3,6 @@ layout: recipe
 title: Thai_curry_mussels_soup
 yield: 3 people
 time: 1 hour
-
 ---
 
 ## Ingredients

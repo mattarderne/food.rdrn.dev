@@ -4,7 +4,6 @@ title: Spiced, roasted cauliflower and chickpeas
 yield: 4 ppl
 time: 30 minutes
 notes: Serve on salads or in wraps or on cous cous.
-
 ---
 
 ## Ingredients

@@ -4,7 +4,6 @@ title: Thai rice soup
 yield: Serves 2-4
 time: 
 note: You can leave out the chicken and make it vegetarian
-
 ---
 
 ## Ingredients

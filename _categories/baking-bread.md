@@ -13,3 +13,7 @@ Useful goes here
 - [simple intro](https://breadtopia.com/demystifying-sourdough-bread-baking/)
 - [starter faq](https://www.abeautifulplate.com/sourdough-starter-troubleshooting-guide/)
 
+## Helper videos
+
+- [Pre-shape](https://www.youtube.com/watch?v=kPB_FdQE9lg)
+- [Final shape](https://www.youtube.com/watch?v=d2-1TDzPxno)
