@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Broccoli_and_bacon_soup
+title: Broccoli and bacon soup
 source: 
 yield: serves 6
 time: 1 hour

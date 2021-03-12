@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Roast_tomato_soup
+title: Roast tomato soup
 yield: 4 ppl
 time: 2 hours
 ---
