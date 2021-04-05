@@ -4,8 +4,7 @@ title: Hot cross buns
 source: https://www.deliciousmagazine.co.uk/recipes/hot-cross-buns/
 yield: 12 buns
 time: About 3 hours start to finish with proofing
-notes: You can either make a flour and water cross before baking or add cream cheese icing crosses once cooled. 
-Add as much spice as you like. 
+notes: You can either make a flour and water cross before baking or add cream cheese icing crosses once cooled. Add as much spice as you like. 
 ---
 
 ## Ingredients
